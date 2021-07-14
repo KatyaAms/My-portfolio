@@ -11,13 +11,37 @@ h2 {
   font-weight: 500;
   color: white;
 }
+.other {
+  font-family: "Josefin Sans", sans-serif;
+  color:black;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 20px 60px;
+}
 
 p {
   font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
   color: white;
 }
+.blackText {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  color: black;
+  padding: 20px 60px;
+}
 
+
+
+@media (max-width: 900px){
+  .description, 
+  .btn-my-brand
+  {
+padding: 0;
+text-align: center;
+
+  } 
+}
 .hero {
   background: url(/images/pine-forest.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -30,7 +54,7 @@ p {
   text-align: center;
   padding: 160px 20px;
 }
-html {
+/*html {
   background: url(/images/pine-forest.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -39,7 +63,7 @@ html {
   height: 100%;
   overflow: hidden;
   min-height: 100%;
-}
+}*/
 .Myphoto {
   border-radius: 50%;
   display: inline-block;
@@ -57,3 +81,16 @@ html {
   line-height: 27px;
   padding: 12px 20px;
 }
+.btn-my-brand {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  color: #647e4b;
+  border:1px solid #647e4b;
+  border-radius: 4px;
+  line-height: 27px;
+  padding: 12px 20px;
+  margin-left: 60px;
+}
+/*if I remove margin-left: 60px then I don't have a centered link on big screen. 
+If I keep it, then I can't have centered link on a small screen.
+What to do to make the link .btn-my-brand  centered on all screens? */
