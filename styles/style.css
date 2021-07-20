@@ -13,7 +13,7 @@ h2 {
 }
 .other {
   font-family: "Josefin Sans", sans-serif;
-  color:black;
+  color: black;
   font-size: 30px;
   font-weight: 500;
   padding: 20px 60px;
@@ -31,16 +31,18 @@ p {
   padding: 20px 60px;
 }
 
-
-
-@media (max-width: 900px){
-  .description, 
-  .btn-my-brand
-  {
-padding: 0;
-text-align: center;
-
-  } 
+@media (max-width: 900px) {
+  h1 {
+    font-size: 50px;
+  }
+  .description,
+  .btn-my-brand {
+    padding: 0;
+    text-align: center;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
 }
 .hero {
   background: url(/images/pine-forest.jpg) no-repeat center center fixed;
@@ -85,7 +87,7 @@ text-align: center;
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
   color: #647e4b;
-  border:1px solid #647e4b;
+  border: 1px solid #647e4b;
   border-radius: 4px;
   line-height: 27px;
   padding: 12px 20px;
