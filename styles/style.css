@@ -4,7 +4,12 @@ h1 {
   font-weight: 600;
   color: white;
 }
-
+.blackTextH1 {
+  font-family: "Secular One", sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+  color: black;
+}
 h2 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 38px;
@@ -28,7 +33,6 @@ p {
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
   color: black;
-  padding: 20px 60px;
 }
 
 @media (max-width: 900px) {
@@ -37,7 +41,7 @@ p {
   }
   .description,
   .btn-my-brand {
-    padding: 0;
+    padding: 20px 60px;
     text-align: center;
   }
   .hero {
@@ -55,6 +59,20 @@ p {
   min-height: 100%;
   text-align: center;
   padding: 160px 20px;
+}
+.about-section h1 {
+  font-family: "Secular One", sans-serif;
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 38px;
+  font-weight: 500;
+  padding: 0px;
+}
+.about-section p {
+  padding: 0px;
 }
 /*html {
   background: url(/images/pine-forest.jpg) no-repeat center center fixed;
@@ -91,7 +109,39 @@ p {
   border-radius: 4px;
   line-height: 27px;
   padding: 12px 20px;
-  margin-left: 60px;
+}
+
+.coder-skills {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.coder-skill {
+  display: inline-block;
+  margin: 15px 20px 0 0;
+}
+
+.coder-skill img {
+  border-radius: 50px;
+  background: #ece7f8;
+  margin: 0 auto;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+.block {
+  display: block;
+}
+
+.center {
+  text-align: center !important;
+  margin: 0 auto;
+  display: block;
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
 }
 /*if I remove margin-left: 60px then I don't have a centered link on big screen. 
 If I keep it, then I can't have centered link on a small screen.
