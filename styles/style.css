@@ -9,6 +9,7 @@ h1 {
   font-size: 64px;
   font-weight: 600;
   color: black;
+  text-align: center;
 }
 h2 {
   font-family: "Josefin Sans", sans-serif;
@@ -47,6 +48,10 @@ p {
   .hero {
     padding: 80px 20px;
   }
+  .about-section {
+    padding: 0px;
+    text-align: center;
+  }
 }
 .hero {
   background: url(/images/pine-forest.jpg) no-repeat center center fixed;
@@ -59,6 +64,12 @@ p {
   min-height: 100%;
   text-align: center;
   padding: 160px 20px;
+}
+.about-section {
+  padding: 160px 20px;
+}
+.about-section-content {
+  margin: 30px;
 }
 .about-section h1 {
   font-family: "Secular One", sans-serif;
