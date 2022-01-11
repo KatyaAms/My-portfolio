@@ -159,6 +159,7 @@ p {
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
 }
+
 /*if I remove margin-left: 60px then I don't have a centered link on big screen. 
 If I keep it, then I can't have centered link on a small screen.
 What to do to make the link .btn-my-brand  centered on all screens? */
