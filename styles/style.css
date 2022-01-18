@@ -25,11 +25,13 @@ h2 {
   padding: 20px 60px;
 }
 
-p {
+p,
+ul {
   font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
   color: white;
 }
+
 .blackText {
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
@@ -63,7 +65,19 @@ p {
   overflow: hidden;
   min-height: 100%;
   text-align: center;
-  padding: 160px 20px;
+  padding: 110px 20px;
+}
+.header {
+  background: url(/images/pine-forest.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  min-height: 100%;
+  margin: 0px;
+  padding: 10px 50px;
 }
 .content {
   padding: 160px 20px;
@@ -158,6 +172,28 @@ p {
   color: black;
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  padding: 10px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 10px;
+  margin: 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #ab5f43;
 }
 
 /*if I remove margin-left: 60px then I don't have a centered link on big screen. 
