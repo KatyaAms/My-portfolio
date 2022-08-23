@@ -21,6 +21,12 @@ h2 {
 h4 {
 font-size: 48px;
 }
+
+h5 {
+color:#3a442a;
+font-weight: 200;
+}
+
 .other {
   font-family: "Josefin Sans", sans-serif;
   color: black;
@@ -83,8 +89,20 @@ ul {
   margin: 0px;
   padding: 10px 50px;
 }
+.finisher{
+    background: url(/images/pine-forest.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    min-height: 100%;
+    margin: 0px;
+    padding: 100px 50px;
+  }
 .content {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .about-section-content {
   margin: 30px;
@@ -234,8 +252,18 @@ padding: 10px 14px;
 font-size: 24px;
 }
 
-footer .social-links a:hover {
+footer .social-links  a:hover {
   color:#ab5f43;
+}
+
+footer .open-sourced p {
+  font-size: 12px;
+  color: grey;
+  text-align: center;
+  margin-top: 30px;
+}
+footer .open-sourced a {
+  color: grey;
 }
 
 /*if I remove margin-left: 60px then I don't have a centered link on big screen. 
